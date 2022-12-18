@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #F0F3F6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1, .container h2, .container p {
+  color: #3B4D61;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.head img {
+  border-radius: 100px;
+}
+.head h1 {
+  font-size: 1.2rem;
+}
+.head p {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+.icon-container a {
+  margin: 0 1.2rem;
+  width: 50%;
+}
+.icon-container a svg {
+  width: 80%;
+}
+
+.content {
+  margin-top: 30px;
+}
+.content h1 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+mark {
+  color: #3B4D61;
+  background: linear-gradient(transparent 70%, #00FFCE 70%, #00FFCE 93%, transparent 93%);
+}
+
+.group-items {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.link-item {
+  width: 270px;
+  height: 170px;
+  background: #3B4D61;
+  padding: 28px;
+  margin: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.link-item h2, .link-item p {
+  margin: 0;
+  margin-bottom: 15px;
+  color: #F0F3F6;
+}
+.link-item h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.link-item p {
+  font-weight: 100;
+}
+.link-item img {
+  position: relative;
+  right: -180px;
+  bottom: -6px;
+}/*# sourceMappingURL=linkhub.css.map */

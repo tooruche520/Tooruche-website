@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+$primary-color: #F0F3F6;
+$primary-color-dark: #3B4D61;
+$secondary-color: #00FFCE;
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: $primary-color;
+}
+
+.container{
+    // width: calc(100vh - 20px * 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1, h2, p{
+        color: $primary-color-dark;
+    }
+
+
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+    img{
+        border-radius: 100px;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    p{
+        margin-top: 0px;
+        font-weight: 300;
+    }
+}
+
+.icon-container{
+    display: flex;
+    // justify-items: center;
+    // justify-content: center;
+    align-items: center;
+
+    a{
+        margin: 0 1.2rem;
+        width: 50%;
+
+        svg{
+            width: 80%;
+        }
+
+        // &:hover{
+        //     color: #00FFCE;
+        // }
+    }
+
+    
+}
+
+.content{
+    margin-top: 30px;
+    h1{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
+
+mark{
+    // background-color: transparent;
+    // padding: 2px 1px;
+    // border-radius: 5px; 
+    // position: relative;
+    // top: 3px;
+    color: $primary-color-dark ;  
+    background: linear-gradient(transparent 70%, $secondary-color 70%, $secondary-color 93%, transparent 93%);
+}
+
+.group-items{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.link-item{
+    width: 270px;
+    height: 170px;
+    background: $primary-color-dark;
+    padding: 28px;
+    margin: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+
+    h2, p{
+        margin: 0;
+        margin-bottom: 15px;
+        color: $primary-color;
+    }
+
+    h2{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    p{
+        font-weight: 100;
+        // font-size: 1.2rem;
+    }
+
+    img{
+        position: relative;
+        right: -180px;
+        bottom: -6px;
+
+    }
+}
