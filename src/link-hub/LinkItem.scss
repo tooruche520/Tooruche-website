@@ -1,0 +1,32 @@
+.link-item{
+    width: 270px;
+    height: 170px;
+    background: var(--primary-color-dark);
+    padding: 28px;
+    margin: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+
+    h2, p{
+        margin: 0;
+        margin-bottom: 15px;
+        color: var(--primary-color);
+    }
+
+    h2{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    p{
+        font-weight: 100;
+        // font-size: 1.2rem;
+    }
+
+    img{
+        position: relative;
+        right: -180px;
+        bottom: -6px;
+
+    }
+}
