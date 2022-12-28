@@ -21,7 +21,7 @@ function LinkItem(props) {
 	};
 
 	return (
-		<a class="link-item" href={url}>
+		<a className="link-item" href={url}>
 			<h2>
 				{title}
 			</h2>
@@ -34,3 +34,4 @@ function LinkItem(props) {
 }
 
 export default LinkItem;
+

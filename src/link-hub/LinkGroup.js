@@ -5,13 +5,13 @@ function LinkGroup(props) {
     let group = props.group['link-group'];
     
 	return (
-		<div class="link-group">
+		<div className="link-group">
 			<h1>
 				<mark>
 					{group_title}
 				</mark>
 			</h1>
-			<div class="group-items">
+			<div className="group-items">
 				{group.map(items => {
 					return <LinkItem item={items} />;
 				})}
