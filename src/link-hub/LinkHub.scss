@@ -25,6 +25,7 @@ body {
     padding: 0;
     margin: 0;
     cursor: url('../img/tk.png'), pointer;
+    // cursor: url('../img/tk.png'), hover;
 }
 
 .change-theme{
@@ -133,7 +134,8 @@ mark {
 .group-items {
     display: flex;
     justify-content: center;
-
+    padding-left: 20px;
+    padding-right: 20px;
     flex-wrap: wrap; // overflow-x: scroll; // overflow-y: hidden;
     // white-space: nowrap;
     // -webkit-overflow-scrolling: touch;
@@ -183,10 +185,10 @@ mark {
             display: flex;
             flex-direction: row-reverse;
             justify-content: flex-end;
-            width: calc(100% - 28px*2);
+            width: calc(100% - 15px*2);
             height: 100%;
             padding: 15px;
-            margin: 15px 20px;
+            margin: 15px 0px;
             h2 {
                 width: 100%;
                 margin: 0;
