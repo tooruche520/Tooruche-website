@@ -28,6 +28,10 @@ body {
     // cursor: url('../img/tk.png'), hover;
 }
 
+a {
+    cursor: url('../img/tk_hand.png'), pointer;
+}
+
 .change-theme{
     position: fixed;
     top: 50px;
@@ -142,36 +146,13 @@ mark {
     // margin-bottom: 40px;
 }
 .link-item {
-    position: relative;
-    min-width: 270px;
-    height: 160px;
-    background: var(--primary-color-dark);;
-    padding: 28px;
-    margin: 20px;
-    border-radius: 8px;
-    text-decoration: none;
     h2,
     p {
-        margin: 0;
-        margin-bottom: 15px;
-        color: var(--primary-color);;
-    }
-    h2 {
-        font-size: 1.2rem;
-        font-weight: 500;
+        color: var(--primary-color);
     }
 
-    p {
-        font-weight: 100;
-        // font-size: 1.2rem;
-    }
-
-    img {
-        position: absolute;
-        right: 25px;
-        bottom: 20px;
-    }
 }
+
 @media (max-width: 700px) {
     // .container{
     // display: block;
@@ -198,11 +179,14 @@ mark {
             p {
                 display: none;
             }
-            img {
+            .icon {
                 position: relative;
                 right: 0;
                 bottom: 0; // margin-right: 10px;
                 padding: 5px;
+            }
+            .background {
+                display: none;
             }
         }
     }
