@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.21183543.css",
-    "main.js": "./static/js/main.e7b48cb1.js",
+    "main.css": "./static/css/main.796c07c8.css",
+    "main.js": "./static/js/main.bbfb584e.js",
     "static/js/787.4b1c027a.chunk.js": "./static/js/787.4b1c027a.chunk.js",
     "static/media/Tooru_3_squar.jpg": "./static/media/Tooru_3_squar.4c53099a213878a4d641.jpg",
     "static/media/icon_GoogleDrive_.png": "./static/media/icon_GoogleDrive_.41637e203c86fe0394f0.png",
@@ -12,12 +12,12 @@
     "static/media/email.svg": "./static/media/email.7617c6e84d551946fe47bcc69ef843dc.svg",
     "index.html": "./index.html",
     "static/media/twitch.svg": "./static/media/twitch.8afaf2b52bccd451885b33689007119a.svg",
-    "main.21183543.css.map": "./static/css/main.21183543.css.map",
-    "main.e7b48cb1.js.map": "./static/js/main.e7b48cb1.js.map",
+    "main.796c07c8.css.map": "./static/css/main.796c07c8.css.map",
+    "main.bbfb584e.js.map": "./static/js/main.bbfb584e.js.map",
     "787.4b1c027a.chunk.js.map": "./static/js/787.4b1c027a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21183543.css",
-    "static/js/main.e7b48cb1.js"
+    "static/css/main.796c07c8.css",
+    "static/js/main.bbfb584e.js"
   ]
 }
