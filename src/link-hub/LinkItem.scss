@@ -48,5 +48,13 @@
         opacity: 17%;
         // clip:rect(10px ,270px ,170px ,0px )
         // height: 100%;
+        transform: scale(1,1);
+        transition: all 1s cubic-bezier(.11,.77,.29,1);
+    }
+}
+
+.link-item:hover{
+    .background{
+        transform: scale(1.15,1.15);
     }
 }

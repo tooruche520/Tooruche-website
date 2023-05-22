@@ -144,6 +144,10 @@ function LinkHub() {
                     return <LinkGroup group={group} />;
                 })}
             </div>
+
+			<footer>
+				<p>© 2023 晴海徹</p>
+			</footer>
         </div>
     );
 }
