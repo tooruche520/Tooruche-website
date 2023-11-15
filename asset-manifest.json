@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.b20629dd.css",
-    "main.js": "./static/js/main.e278a9c1.js",
+    "main.css": "./static/css/main.7b858ac1.css",
+    "main.js": "./static/js/main.1c0cb3e4.js",
     "static/js/787.4b1c027a.chunk.js": "./static/js/787.4b1c027a.chunk.js",
     "static/media/Tooru_3_squar.jpg": "./static/media/Tooru_3_squar.4c53099a213878a4d641.jpg",
     "static/media/icon_GoogleDrive_.png": "./static/media/icon_GoogleDrive_.41637e203c86fe0394f0.png",
@@ -9,15 +9,15 @@
     "static/media/discord.svg": "./static/media/discord.cb70726d3614f63ca3af87255fc8846d.svg",
     "static/media/twitter.svg": "./static/media/twitter.37e748bba3aebe606ad7a3465eb2f199.svg",
     "static/media/youtube.svg": "./static/media/youtube.9c4ed3fdd73a716ee5bc8c46d63e2e2e.svg",
-    "index.html": "./index.html",
     "static/media/email.svg": "./static/media/email.7617c6e84d551946fe47bcc69ef843dc.svg",
+    "index.html": "./index.html",
     "static/media/twitch.svg": "./static/media/twitch.8afaf2b52bccd451885b33689007119a.svg",
-    "main.b20629dd.css.map": "./static/css/main.b20629dd.css.map",
-    "main.e278a9c1.js.map": "./static/js/main.e278a9c1.js.map",
+    "main.7b858ac1.css.map": "./static/css/main.7b858ac1.css.map",
+    "main.1c0cb3e4.js.map": "./static/js/main.1c0cb3e4.js.map",
     "787.4b1c027a.chunk.js.map": "./static/js/787.4b1c027a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b20629dd.css",
-    "static/js/main.e278a9c1.js"
+    "static/css/main.7b858ac1.css",
+    "static/js/main.1c0cb3e4.js"
   ]
 }
