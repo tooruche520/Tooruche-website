@@ -26,7 +26,6 @@ body {
     margin: 0;
     cursor: url('../img/tk.png'), pointer;
     height: 100vh;
-    // cursor: url('../img/tk.png'), hover;
 }
 
 a {
@@ -46,16 +45,12 @@ a {
 }
 
 .container {
-    // width: calc(100vh - 20px * 2);
-    // height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: var(--primary-color);
 
 
-    h1,
-    h2,
-    p {
+    h1, h2, p {
         color: var(--primary-color-dark);;
     }
 }
@@ -63,7 +58,6 @@ a {
 .head {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
 
     margin-top: 50px;
@@ -90,24 +84,15 @@ a {
 
     a {
         margin: 0 1.125rem;
-        // width: 50%;
         display: flex;
         justify-content: center;
 
-        // img {
-        //     width: 80%;
-        //     background-color: var(--primary-color-dark);
-        //     fill: #000;
-        // }
 
         svg{
             fill: var(--primary-color-dark);
             width: 80%;
         }
 
-        // &:hover{
-        //     color: #00FFCE;
-        // }
     }
 }
 
@@ -120,11 +105,6 @@ a {
 }
 
 mark {
-    // background-color: transparent;
-    // padding: 2px 1px;
-    // border-radius: 5px;
-    // position: relative;
-    // top: 3px;
     color: var(--primary-color-dark);;
     background: linear-gradient(
         transparent 70%,
@@ -135,20 +115,20 @@ mark {
 }
 .link-group {
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .group-items {
+    max-width: 1300px;
+    margin: auto;
     display: flex;
     justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
-    flex-wrap: wrap; // overflow-x: scroll; // overflow-y: hidden;
-    // white-space: nowrap;
-    // -webkit-overflow-scrolling: touch;
-    // margin-bottom: 40px;
+    flex-wrap: wrap; 
 }
 .link-item {
-    h2,
-    p {
+    h2, p {
         color: var(--primary-color);
     }
 
@@ -162,14 +142,12 @@ footer {
 }
 
 @media (max-width: 700px) {
-    // .container{
-    // display: block;
-    // }
     .group-items {
         flex-direction: column;
         justify-content: center;
-
         align-items: center;
+        margin: 0;
+
         .link-item {
             display: flex;
             flex-direction: row-reverse;
